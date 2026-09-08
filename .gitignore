@@ -1,0 +1,31 @@
+# Upstream projects under benchmark. Both are separate repositories with their
+# own licences and are cloned in place, never vendored here. See the README for
+# the clone/build steps.
+bench/acdc_py/
+bench/vnc-translation/
+
+# Challenge data and anything derived from it. Much of the FlyWire VNC matching
+# challenge data is unpublished and must not be redistributed; use
+# scripts/fetch_data.sh to download it from the challenge page instead.
+bench/data/
+bench/instances/
+bench/work/
+*.csv
+*.csv.gz
+
+# Python environment and bytecode
+bench/.venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Build trees
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# macOS
+.DS_Store

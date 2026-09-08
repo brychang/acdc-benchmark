@@ -1,0 +1,1 @@
+{"impl": "acdc_py", "n": 2000, "male_edges": 45503, "female_edges": 26593, "phase": "acdc", "outer": 5, "fw": 10, "solver": "dense", "score": 63907.0, "import_s": 0.16, "load_s": 0.012, "algo_s": 3.602, "frank_wolfe_s": 2.865, "greedy_s": 0.737, "save_s": 0.001, "peak_rss_mb": 328.4, "solution": "/Users/bc/pu/bn/id/bench/work/n2000_py/solution_py.csv"}

@@ -1,0 +1,28 @@
+n=500:
+  [n500] vnc-translation (C++)  run 1/2  algo=     0.27s  wall=     0.27s  score=3543
+  [n500] vnc-translation (C++)  run 2/2  algo=     0.26s  wall=     0.27s  score=3543
+  [n500] acdc_py (Python)       run 1/2  algo=     0.22s  wall=     0.52s  score=3550
+  [n500] acdc_py (Python)       run 2/2  algo=     0.22s  wall=     0.53s  score=3550
+n=1000:
+  [n1000] vnc-translation (C++)  run 1/2  algo=     0.98s  wall=     0.99s  score=15986
+  [n1000] vnc-translation (C++)  run 2/2  algo=     0.97s  wall=     0.99s  score=15986
+  [n1000] acdc_py (Python)       run 1/2  algo=     0.82s  wall=     1.13s  score=15966
+  [n1000] acdc_py (Python)       run 2/2  algo=     0.82s  wall=     1.14s  score=15966
+n=2000 male_edges=45503 female_edges=26593 max_male_id=2000 max_female_id=2000 -> /Users/bc/pu/bn/id/bench/instances/n2000
+n=2000:
+  [n2000] vnc-translation (C++)  run 1/2  algo=     3.75s  wall=     3.77s  score=63993
+  [n2000] vnc-translation (C++)  run 2/2  algo=     3.76s  wall=     3.78s  score=63993
+  [n2000] acdc_py (Python)       run 1/2  algo=     3.60s  wall=     3.93s  score=63907
+  [n2000] acdc_py (Python)       run 2/2  algo=     3.60s  wall=     3.93s  score=63907
+n=4000 male_edges=190526 female_edges=106898 max_male_id=4000 max_female_id=4000 -> /Users/bc/pu/bn/id/bench/instances/n4000
+n=4000:
+  [n4000] vnc-translation (C++)  run 1/2  algo=    23.54s  wall=    23.60s  score=265814
+  [n4000] vnc-translation (C++)  run 2/2  algo=    23.80s  wall=    23.86s  score=265814
+  [n4000] acdc_py (Python)       run 1/2  algo=    25.75s  wall=    26.14s  score=265691
+  [n4000] acdc_py (Python)       run 2/2  algo=    25.82s  wall=    26.20s  score=265691
+n=8000 male_edges=755991 female_edges=416308 max_male_id=8000 max_female_id=8000 -> /Users/bc/pu/bn/id/bench/instances/n8000
+n=8000:
+  [n8000] vnc-translation (C++)  run 1/2  algo=   137.81s  wall=   138.04s  score=1062386
+  [n8000] vnc-translation (C++)  run 2/2  algo=   138.50s  wall=   138.73s  score=1062386
+command failed (-15): /Users/bc/pu/bn/id/bench/.venv/bin/python /Users/bc/pu/bn/id/bench/harness/run_py.py --csv-dir /Users/bc/pu/bn/id/bench/work/n8000_py --outer 5 --fw 10 --out /Users/bc/pu/bn/id/bench/work/n8000_py/solution_py.csv
+

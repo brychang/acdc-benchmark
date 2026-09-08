@@ -1,0 +1,41 @@
+{
+  "n": 8000,
+  "outer": 1,
+  "fw": 10,
+  "solver": "dense",
+  "total_s": 29.604350083041936,
+  "scopes": {
+    "do_frank_wolfe": {
+      "count": 1,
+      "total_s": 17.606560499873012
+    },
+    "permutation_match[dense]": {
+      "count": 10,
+      "total_s": 12.412419333588332
+    },
+    "greedy_search": {
+      "count": 1,
+      "total_s": 11.997177165932953
+    },
+    "evaluate_swaps": {
+      "count": 7,
+      "total_s": 11.11987341591157
+    },
+    "compute_gradient": {
+      "count": 10,
+      "total_s": 4.934891291894019
+    },
+    "make_swaps": {
+      "count": 6,
+      "total_s": 0.8506514572072774
+    },
+    "gradient_entries": {
+      "count": 10,
+      "total_s": 0.23435383453033864
+    },
+    "permutation_match[sparse]": {
+      "count": 1,
+      "total_s": 0.0013869998510926962
+    }
+  }
+}

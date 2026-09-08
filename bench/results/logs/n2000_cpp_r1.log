@@ -1,0 +1,215 @@
+% Options: outer=5  fw=10  fw_first=10  max_swap=unlimited  greedy_inner=unlimited  swap_beam_k=0  swap_d_min_ratio=0  swap_stale_shrink=0  no_warm_start=0  warm_csv=vnc_matching_submission_benchmark_5154247.csv  fw_adapt=0  fw_traj_div_scale=0 fw_traj_div_seed=1  paired_shuffle_seed=0  fw_ensemble_k=0  fw_ensemble_seed_base=1  save_ckpt=0  save_ckpt_fw=0  (fw_first = fw)
+% Loading connectomes ... 0.0 sec.
+% Initializing from warm start vnc_matching_submission_benchmark_5154247.csv
+Iteration 1/5  (Frank–Wolfe steps this iteration: 10)
+%
+% Frank-Wolfe updates:
+%  iter    vertex   simplex   tMin   tMatch
+     00   0059731   0059731   00.0   00.0
+     01   0059734   0061672   00.0   00.0
+     02   0062510   0062834   00.0   00.0
+     03   0062537   0063431   00.0   00.0
+     04   0063115   0063718   00.0   00.0
+     05   0062903   0063901   00.0   00.0
+     06   0063352   0064027   00.0   00.0
+     07   0063125   0064115   00.0   00.0
+     08   0063462   0064181   00.0   00.0
+     09   0063415   0064221   00.0   00.0
+     10   0063487   0064259   00.0   00.0
+%
+% Pairwise swaps:
+%  iter     score  acc rej prb ilop  str tn stl   dmin    bk kEff  ratio   bsz fbf  tMin tMatch      dMax
+%           (acc=accepts rej=probes-acc prb=inner trials str=streak@make_swaps tn=tighten stl=stale_shrink dmin=swap_d_min_ratio bk=beam_k kEff/ratio/bsz/fbf=beam; dMax after evaluate_swaps)
+    000   0063487    0    0    0     0    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0            17
+    001   0063764   64  201  265   266    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             8
+    002   0063833   24   47   71    72    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             5
+    003   0063860   11   22   33    34    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             4
+    004   0063874    7    3   10    11    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             1
+    005   0063875    1    1    2     3    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             1
+    006   0063876    1    0    1     2    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             4
+    007   0063880    1    0    1     2    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             0
+    008   0063880    0    0    0     0    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             0
+Iteration 2/5  (Frank–Wolfe steps this iteration: 10)
+%
+% Frank-Wolfe updates:
+%  iter    vertex   simplex   tMin   tMatch
+     00   0063880   0063880   00.0   00.0
+     01   0063880   0064332   00.0   00.0
+     02   0063880   0064423   00.0   00.0
+     03   0063880   0064457   00.0   00.0
+     04   0063839   0064481   00.0   00.0
+     05   0063812   0064498   00.0   00.0
+     06   0063761   0064509   00.0   00.0
+     07   0063828   0064517   00.0   00.0
+     08   0063794   0064524   00.0   00.0
+     09   0063830   0064530   00.0   00.0
+     10   0063800   0064535   00.0   00.0
+%
+% Pairwise swaps:
+%  iter     score  acc rej prb ilop  str tn stl   dmin    bk kEff  ratio   bsz fbf  tMin tMatch      dMax
+%           (acc=accepts rej=probes-acc prb=inner trials str=streak@make_swaps tn=tighten stl=stale_shrink dmin=swap_d_min_ratio bk=beam_k kEff/ratio/bsz/fbf=beam; dMax after evaluate_swaps)
+    000   0063800    0    0    0     0    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0            27
+    001   0063923   26  100  126   127    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             3
+    002   0063935    9    8   17    18    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             2
+    003   0063937    1    1    2     3    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             0
+    004   0063937    0    0    0     0    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             0
+Iteration 3/5  (Frank–Wolfe steps this iteration: 10)
+%
+% Frank-Wolfe updates:
+%  iter    vertex   simplex   tMin   tMatch
+     00   0063937   0063937   00.0   00.0
+     01   0063937   0064394   00.0   00.0
+     02   0063937   0064481   00.0   00.0
+     03   0063937   0064511   00.0   00.0
+     04   0063888   0064531   00.0   00.0
+     05   0063906   0064543   00.0   00.0
+     06   0063855   0064550   00.0   00.0
+     07   0063891   0064555   00.0   00.0
+     08   0063888   0064559   00.0   00.0
+     09   0063874   0064563   00.0   00.0
+     10   0063877   0064565   00.0   00.0
+%
+% Pairwise swaps:
+%  iter     score  acc rej prb ilop  str tn stl   dmin    bk kEff  ratio   bsz fbf  tMin tMatch      dMax
+%           (acc=accepts rej=probes-acc prb=inner trials str=streak@make_swaps tn=tighten stl=stale_shrink dmin=swap_d_min_ratio bk=beam_k kEff/ratio/bsz/fbf=beam; dMax after evaluate_swaps)
+    000   0063877    0    0    0     0    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             9
+    001   0063937   14   58   72    73    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             3
+    002   0063947    6    6   12    13    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             1
+    003   0063948    1    0    1     2    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             1
+    004   0063949    1    0    1     2    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             1
+    005   0063951    2    0    2     3    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             1
+    006   0063952    1    0    1     2    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             1
+    007   0063953    1    0    1     2    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             2
+    008   0063955    1    0    1     2    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             0
+    009   0063955    0    0    0     0    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             0
+Iteration 4/5  (Frank–Wolfe steps this iteration: 10)
+%
+% Frank-Wolfe updates:
+%  iter    vertex   simplex   tMin   tMatch
+     00   0063955   0063955   00.0   00.0
+     01   0063955   0064409   00.0   00.0
+     02   0063955   0064493   00.0   00.0
+     03   0063955   0064523   00.0   00.0
+     04   0063906   0064543   00.0   00.0
+     05   0063919   0064554   00.0   00.0
+     06   0063894   0064560   00.0   00.0
+     07   0063939   0064566   00.0   00.0
+     08   0063857   0064569   00.0   00.0
+     09   0063926   0064572   00.0   00.0
+     10   0063914   0064574   00.0   00.0
+%
+% Pairwise swaps:
+%  iter     score  acc rej prb ilop  str tn stl   dmin    bk kEff  ratio   bsz fbf  tMin tMatch      dMax
+%           (acc=accepts rej=probes-acc prb=inner trials str=streak@make_swaps tn=tighten stl=stale_shrink dmin=swap_d_min_ratio bk=beam_k kEff/ratio/bsz/fbf=beam; dMax after evaluate_swaps)
+    000   0063914    0    0    0     0    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             8
+    001   0063955   13   36   49    50    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             5
+    002   0063965    4    7   11    12    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             4
+    003   0063972    3    7   10    11    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             0
+    004   0063972    0    0    0     0    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             0
+Iteration 5/5  (Frank–Wolfe steps this iteration: 10)
+%
+% Frank-Wolfe updates:
+%  iter    vertex   simplex   tMin   tMatch
+     00   0063972   0063972   00.0   00.0
+     01   0063972   0064419   00.0   00.0
+     02   0063972   0064502   00.0   00.0
+     03   0063972   0064531   00.0   00.0
+     04   0063947   0064550   00.0   00.0
+     05   0063936   0064562   00.0   00.0
+     06   0063920   0064568   00.0   00.0
+     07   0063920   0064574   00.0   00.0
+     08   0063935   0064577   00.0   00.0
+     09   0063899   0064580   00.0   00.0
+     10   0063920   0064582   00.0   00.0
+%
+% Pairwise swaps:
+%  iter     score  acc rej prb ilop  str tn stl   dmin    bk kEff  ratio   bsz fbf  tMin tMatch      dMax
+%           (acc=accepts rej=probes-acc prb=inner trials str=streak@make_swaps tn=tighten stl=stale_shrink dmin=swap_d_min_ratio bk=beam_k kEff/ratio/bsz/fbf=beam; dMax after evaluate_swaps)
+    000   0063920    0    0    0     0    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             9
+    001   0063966   18   37   55    56    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             8
+    002   0063989    6   12   18    19    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             3
+    003   0063993    2    1    3     4    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             0
+    004   0063993    0    0    0     0    0  0   0  0.0000     0    0  0.0000     0   0  00.0   0             0
+%
+% Total elapsed time is 0.1 minutes.
+
+[profile] ===== Timing Summary =====
+[profile] scope                                       count     total(s)      avg(ms)      max(ms)
+[profile] main_acdc.iteration.frank_wolfe                 5        2.721      544.192      554.256
+[profile] frank_wolfe.total                               5        2.721      544.191      554.256
+[profile] compute_gradient.total                        129        1.889       14.643       16.711
+[profile] frank_wolfe.iter.match_direction               50        1.186       23.724       29.834
+[profile] permutation_match.warm.total                   50        1.186       23.724       29.833
+[profile] compute_gradient.accumulate                   129        1.126        8.730       10.746
+[profile] main_acdc.iteration.greedy_search               5        1.042      208.388      363.209
+[profile] greedy_search.total                             5        1.042      208.387      363.208
+[profile] permutation_match.warm.solve                   50        0.843       16.861       23.588
+[profile] frank_wolfe.iter.compute_gradient              50        0.769       15.378       16.685
+[profile] permutation_match.warm.exact_lapjv.total       50        0.747       14.946       21.203
+[profile] permutation_match.assignment.augment           50        0.747       14.941       21.197
+[profile] compute_gradient.merge                        129        0.743        5.762        6.328
+[profile] frank_wolfe.iter.compute_gradient_q            50        0.705       14.090       16.175
+[profile] greedy_search.evaluate_swaps                   29        0.613       21.148       27.299
+[profile] evaluate_swaps.total                           29        0.613       21.148       27.299
+[profile] greedy_search.make_swaps                       24        0.425       17.709      120.849
+[profile] make_swaps.total                               24        0.425       17.708      120.848
+[profile] make_swaps.fast.body.total                     24        0.425       17.707      120.847
+[profile] evaluate_swaps.gradient                        29        0.416       14.331       16.711
+[profile] make_swaps.fast.inner_while.total              24        0.370       15.434      118.481
+[profile] make_swaps.fast.find_best                     789        0.243        0.308        0.471
+[profile] permutation_match.warm.permute                 50        0.205        4.100        4.943
+[profile] permutation_match.warm.diagonal_adjust         50        0.136        2.725        3.154
+[profile] evaluate_swaps.stream_D_perm                   29        0.127        4.366        8.026
+[profile] make_swaps.fast.refresh_ap_pb                 218        0.116        0.532        0.688
+[profile] evaluate_swaps.stream_D_perm.fill              29        0.110        3.799        7.536
+[profile] evaluate_swaps.quadratic_prep                  29        0.056        1.942        2.133
+[profile] evaluate_swaps.quadratic_prep.csr              29        0.044        1.515        1.608
+[profile] compute_score.total                            61        0.038        0.623        1.047
+[profile] make_swaps.fast.initial_csr.total              24        0.035        1.441        1.610
+[profile] frank_wolfe.iter.compute_score_pm              50        0.031        0.627        0.848
+[profile] compute_score.permutation_products             61        0.024        0.395        0.689
+[profile] permutation_match.warm.to_cost                 50        0.020        0.400        0.583
+[profile] compute_gradient.transpose                    129        0.017        0.135        0.214
+[profile] evaluate_swaps.max_scan                        29        0.016        0.564        0.689
+[profile] compute_score.sparse_reduce                    85        0.015        0.179        0.685
+[profile] make_swaps.fast.initial_ap_pb.total            24        0.013        0.533        0.636
+[profile] evaluate_swaps.quadratic_prep.bp               29        0.011        0.387        0.491
+[profile] main_acdc.load_connectomes                      1        0.011       11.102       11.102
+[profile] read_connectome.total                           2        0.011        5.549        6.841
+[profile] read_connectome.parse_csv                       2        0.011        5.314        6.566
+[profile] permutation_match.cold.total                   55        0.008        0.147        0.249
+[profile] frank_wolfe.iter.project_match                 50        0.008        0.155        0.249
+[profile] permutation_match.cold.solve                   55        0.008        0.138        0.240
+[profile] make_swaps.fast.swap_score                    765        0.007        0.009        0.031
+[profile] permutation_match.assignment.sort_sparse_edges       55        0.007        0.121        0.216
+[profile] frank_wolfe.initial_score                       5        0.003        0.663        1.048
+[profile] make_swaps.fast.build_swapped_sparse          218        0.003        0.015        0.026
+[profile] greedy_search.initial_score                     5        0.003        0.538        0.622
+[profile] frank_wolfe.iter.step_numer                    50        0.002        0.042        0.053
+[profile] frank_wolfe.iter.update_ps                     50        0.001        0.030        0.045
+[profile] permutation_match.warm.unpermute               50        0.001        0.016        0.028
+[profile] frank_wolfe.iter.interpolate                   50        0.001        0.014        0.036
+[profile] main_acdc.final_score                           1        0.001        0.662        0.662
+[profile] permutation_match.assignment.collect_sparse_edges       55        0.001        0.010        0.018
+[profile] frank_wolfe.iter.compute_score_ps              50        0.001        0.011        0.028
+[profile] main_acdc.save_solution                         1        0.000        0.491        0.491
+[profile] save_solution.total                             1        0.000        0.488        0.488
+[profile] read_connectome.build_sparse                    2        0.000        0.212        0.254
+[profile] frank_wolfe.initial_match                       5        0.000        0.070        0.075
+[profile] permutation_match.warm.to_dense                50        0.000        0.007        0.016
+[profile] main_acdc.load_solution                         1        0.000        0.273        0.273
+[profile] read_solution.total                             1        0.000        0.272        0.272
+[profile] save_solution.write_rows                        1        0.000        0.270        0.270
+[profile] evaluate_swaps.linear_reduce                   29        0.000        0.009        0.012
+[profile] read_solution.parse_pairs                       1        0.000        0.226        0.226
+[profile] permutation_match.assignment.greedy_sparse_match       55        0.000        0.002        0.008
+[profile] permutation_match.assignment.complete_zero_pairs       55        0.000        0.001        0.002
+[profile] main_acdc.ensure_size                           1        0.000        0.035        0.035
+[profile] ensure_size.total                               3        0.000        0.010        0.018
+[profile] permutation_match.assignment.extract           50        0.000        0.000        0.000
+[profile] read_solution.build_sparse                      1        0.000        0.008        0.008
+[profile] read_solution.build_triplets                    1        0.000        0.003        0.003
+[profile] paired_unshuffle_permutation.total              1        0.000        0.002        0.002
+[profile] evaluate_swaps.stream_D_perm.resize_D          29        0.000        0.000        0.000
+[profile] frank_wolfe.iter.compute_step                  50        0.000        0.000        0.000
+[profile] ============================
