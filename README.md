@@ -133,10 +133,11 @@ difference in the search itself.
 
 ### Speed: Python wins small, C++ wins large
 
-Below roughly n=2,000, `acdc_py` is about 20% *faster* per algorithm second than
-the C++ — numba-compiled inner loops over sparse structure, with the heavy dense
-work in numpy, are enough to erase the language gap at this scale. The crossover
-is near n=4,000, where C++ is 9% ahead. At n=8,000 the two diverge completely.
+At n=500 and n=1,000, `acdc_py` is about 20% *faster* in algorithm time than the
+C++ — numba-compiled inner loops over sparse structure, with the heavy dense work
+in numpy, are enough to erase the language gap at this scale. By n=2,000 the two
+are within 4%, the crossover is near n=4,000 where C++ is 9% ahead, and at
+n=8,000 they diverge completely.
 
 Note that the C++ has a real advantage in end-to-end wall time at every size
 that is not visible in `algo_s`: Python pays 0.16–0.21 s of interpreter and
@@ -166,8 +167,8 @@ So the pathology does not exist on the first alternation. It appears in a later
 one, once the iterate's sparsity pattern has evolved into something the sparse
 Jonker–Volgenant implementation handles badly. The `outer=1` profile also shows
 where the time legitimately goes at this size — 17.6 s of Frank–Wolfe, of which
-12.4 s is the dense assignment per step, and 12.0 s of greedy search — which is
-consistent with the C++ and rules out a general blow-up.
+12.4 s is the dense assignment across the ten steps, and 12.0 s of greedy
+search — which is consistent with the C++ and rules out a general blow-up.
 
 This is a diagnosed but not fully root-caused finding. What is established is
 the location of the stall and that it is input-pattern dependent rather than a
@@ -186,10 +187,10 @@ Share of algorithm time spent in Frank–Wolfe (the remainder is greedy search):
 | 4,000 | 62% | 60% |
 
 The Frank–Wolfe share declines with size in both, as the greedy swap phase grows
-faster than the continuous phase, and the two implementations track each other
-to within a few points at every size. Combined with the near-identical scores,
-this is good evidence that both are executing the same algorithm and not merely
-arriving at similar answers.
+faster than the continuous phase, and the two implementations agree to within 3
+points at three of the four sizes (8 points at n=2,000). Combined with the
+near-identical scores, this is good evidence that both are executing the same
+algorithm and not merely arriving at similar answers.
 
 ### Memory: provisional
 
