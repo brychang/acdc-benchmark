@@ -12,6 +12,10 @@ bench/instances/
 bench/work/
 *.csv
 *.csv.gz
+# Sparse projection matrices saved by diag_projection.py --dump-dir while
+# diagnosing the seed-0 n=8000 stall. Derived from the challenge graphs.
+bench/results/dumps/
+*.npz
 
 # Python environment and bytecode
 bench/.venv/
